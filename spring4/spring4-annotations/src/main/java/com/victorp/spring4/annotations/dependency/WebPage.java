@@ -11,6 +11,7 @@ public class WebPage {
         this.spellChecker = spellChecker;
     }
 
+
     public void spellCheck(){
         spellChecker.checkSpelling();
     }
