@@ -7,6 +7,9 @@
     <groupId>com.victorp.spring4</groupId>
     <artifactId>spring4-reactor</artifactId>
     <version>0.0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>spring4-annotations</module>
+    </modules>
     <packaging>pom</packaging>
 
     <properties>
