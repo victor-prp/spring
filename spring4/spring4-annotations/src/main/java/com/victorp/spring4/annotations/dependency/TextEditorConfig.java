@@ -2,6 +2,7 @@ package com.victorp.spring4.annotations.dependency;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * @author victorp
@@ -14,7 +15,7 @@ public class TextEditorConfig {
         return new TextEditor( spellChecker() );
     }
 
-    @Bean
+    @Bean()
     public WebPage webPage(){
         return new WebPage( spellChecker() );
     }
